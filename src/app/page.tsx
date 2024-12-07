@@ -92,7 +92,7 @@ export default function Home() {
               </Button>
             </div>
             <Button variant="outline" size="icon" asChild>
-              <Link to="https://twitter.com/rishit_singh_">
+              <Link to="https://twitter.com/__coderish__">
                 <XLogo className="h-[1.2rem] w-[1.2rem] fill-current" />
                 <span className="sr-only">Twitter</span>
               </Link>
