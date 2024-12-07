@@ -57,9 +57,11 @@ export default function Home() {
         <div className="container flex h-14 items-center justify-between">
           <div className="mr-4 hidden md:flex">
             <Link to="/" className="ml-4 mr-6 flex items-center space-x-2">
-              <span className="hidden font-bold sm:inline-block">
-                Rishit Singh
-              </span>
+              <img
+                src="/logo.svg"
+                alt="Rishit Singh Logo"
+                className="h-6 w-6"
+              />
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
               <button
