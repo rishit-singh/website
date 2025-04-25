@@ -1,4 +1,4 @@
-import { Terminal, Code, Cpu, Github, ExternalLink } from "lucide-react"
+import { Terminal, Code, Cpu, Github, ExternalLink, Linkedin } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
@@ -94,9 +94,9 @@ export default function DropsPage() {
               asChild
               className="text-[#D9D9D9] hover:text-[#505050] hover:bg-transparent"
             >
-              <a href="https://x.com/__coderish__" target="_blank" rel="noopener noreferrer">
-                <XLogo className="h-5 w-5" />
-                <span className="sr-only">X</span>
+              <a href="https://linkedin.com/in/rishit-singh" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
           </div>
@@ -182,9 +182,9 @@ export default function DropsPage() {
               asChild
               className="text-[#A6A6A6] hover:text-[#505050] hover:bg-transparent"
             >
-              <a href="https://x.com/__coderish__" target="_blank" rel="noopener noreferrer">
-                <XLogo className="h-5 w-5" />
-                <span className="sr-only">X</span>
+              <a href="https://linkedin.com/in/rishit-singh" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
           </div>

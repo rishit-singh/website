@@ -1,4 +1,4 @@
-import { Github, MapPin } from "lucide-react"
+import { Github, MapPin, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { XLogo } from "@/components/ui/x-logo"
@@ -52,9 +52,9 @@ export default function Home() {
                 asChild
                 className="text-[#505050] border-[#505050] hover:bg-[#505050] hover:text-white rounded-none uppercase tracking-wider font-medium transition-all duration-150"
               >
-                <a href="https://x.com/__coderish__" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
-                  <XLogo className="h-4 w-4" />
-                  <span>X</span>
+                <a href="https://linkedin.com/in/rishit-singh" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <Linkedin className="h-4 w-4" />
+                  <span>LinkedIn</span>
                 </a>
               </Button>
             </div>
@@ -87,9 +87,9 @@ export default function Home() {
               asChild
               className="text-[#A6A6A6] hover:text-[#505050] hover:bg-transparent"
             >
-              <a href="https://x.com/__coderish__" target="_blank" rel="noopener noreferrer">
-                <XLogo className="h-5 w-5" />
-                <span className="sr-only">Contact</span>
+              <a href="https://linkedin.com/in/rishit-singh" target="_blank" rel="noopener noreferrer">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
               </a>
             </Button>
           </div>
