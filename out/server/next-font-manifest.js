@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/rishit/src/repos/website/app/layout\":[\"static/media/c97d4358b5ad6f1f-s.p.woff2\",\"static/media/4f05ba3a6752a328-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

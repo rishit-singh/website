@@ -1,7 +1,6 @@
 import { Github, MapPin, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { XLogo } from "@/components/ui/x-logo"
 
 export default function Home() {
   return (
@@ -45,7 +44,7 @@ export default function Home() {
                 asChild
                 className="group bg-[#505050] hover:bg-[#707070] text-white border-0 uppercase tracking-wider font-medium rounded-none px-6 transition-all duration-150"
               >
-                <Link href="/drops">DROPS</Link>
+                <Link href="/projects">PROJECTS</Link>
               </Button>
               <Button
                 variant="outline"

@@ -21,7 +21,7 @@ const firaCode = Fira_Code({
 })
 
 export const metadata: Metadata = {
-  title: "coderish.me",
+  title: "Rishit Singh | coderish.me",
   description: "Building what I find cool. Current obsession is Tinytune.",
   generator: 'coderish',
   icons: {
