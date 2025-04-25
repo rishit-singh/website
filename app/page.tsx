@@ -1,4 +1,4 @@
-import { Github, MapPin, Linkedin } from "lucide-react"
+import { Github, MapPin, Linkedin, FileText } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -39,7 +39,7 @@ export default function Home() {
               <MapPin className="h-4 w-4" />
               <span>Vancouver, BC</span>
             </div>
-            <div className="flex gap-4 mt-4 justify-center">
+            <div className="flex flex-wrap gap-4 mt-4 justify-center">
               <Button
                 asChild
                 className="group bg-[#505050] hover:bg-[#707070] text-white border-0 uppercase tracking-wider font-medium rounded-none px-6 transition-all duration-150"
@@ -54,6 +54,16 @@ export default function Home() {
                 <a href="https://linkedin.com/in/rishit-singh" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Linkedin className="h-4 w-4" />
                   <span>LinkedIn</span>
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                asChild
+                className="text-[#505050] border-[#505050] hover:bg-[#505050] hover:text-white rounded-none uppercase tracking-wider font-medium transition-all duration-150"
+              >
+                <a href="https://drive.google.com/file/d/1_OOgmK6d9BkumgEy6LMU_o1KIFO52iNZ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
+                  <FileText className="h-4 w-4" />
+                  <span>Resume</span>
                 </a>
               </Button>
             </div>
